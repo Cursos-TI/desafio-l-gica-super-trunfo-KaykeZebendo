@@ -116,7 +116,7 @@ int main()
     printf("PIB per Capita: R$ %.2f\n", pibPerCapita2);
     printf("Super Poder: %.2f\n", superPoder2);
 
-    // --- Inicio do Loop do Menu Dinâmico ---
+    // Menu Dinâmico 
     int continuar = 1;
 
     // Declaração de variáveis do Menu Dinâmico
@@ -132,6 +132,7 @@ int main()
     char* nomeAttr1;
     char* nomeAttr2;
 
+    // Inicio do Loop
     while (continuar) {
         // --- Escolha dos atributos ---
         printf("\nEscolha o primeiro atributo (1-5):\n1.Populacao 2.Area 3.PIB 4.Pontos Turísticos 5.Densidade\n");
